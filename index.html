@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Joggify</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="main_header">
+        <h1 class="">
+        Joggify<sup>TM</sup>
+        </h1>
+        <ul class="main_nav">
+            <li class="">
+                Genre
+            </li>
+            <li class="">
+                Playlists
+            </li>
+            <li class="">
+                <div id="search_holder">
+                    <div id="search_div">
+                        <form class="" action="index.html" method="post">
+                            <label for="search_dashboard"></label>
+                            <input id="search_dashboard" class="search" type="text" placeholder="Search" />
+                        </form>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </header>
+
+
+    <div class="main_page">
+
+        <div class="album_holder">
+
+
+        </div>
+
+        <div class="playlist_holder">
+
+
+        </div>
+
+
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="600" height="600">
+        <defs>
+            <clipPath id="clip">
+                <path d="m300 300 -300 -50 350 350 -50 -300 300 -50 -250 -250 z" />
+            </clipPath>
+            <clipPath id="circ">
+                <circle r="287" cx="300" cy="300" />
+            </clipPath>
+            <radialGradient id="g1" cx="50%" cy="50%" r="50%" fx="15%" fy="15%">
+                <stop stop-color="#fff" offset="0%" />
+                <stop stop-color="#000" offset="100%" opacity="0" />
+            </radialGradient>
+            <radialGradient id="g2" cx="50%" cy="50%" r="50%" fx="85%" fy="85%">
+                <stop stop-color="#fff" offset="0%" />
+                <stop stop-color="#000" offset="100%" opacity="0" />
+            </radialGradient>
+        </defs>
+        <circle r="290" cx="300" cy="300" fill="#000" stroke="#000" stroke-width="6" />
+        <rect width="300" height="300" fill="url(#g1)" clip-path="url(#circ)" />
+        <rect x="300" y="300" width="300" height="300" fill="url(#g2)" clip-path="url(#circ)" />
+        <circle r="150" cx="300" cy="300" fill="#000" />
+        <circle r="100" cx="300" cy="300" fill="#333" stroke="#444" stroke-width="5" />
+        <circle r="80" cx="300" cy="300" fill="white" fill-opacity="0.1"/>
+        <circle r="8" cx="300" cy="300" fill="#000" />
+        <circle r="90" cx="300" cy="300" fill="none" stroke="#ccc" stroke-width="5" clip-path="url(#clip)" />
+    </svg>
+
+
+
+
+    <!-- Script tags -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/app.js"></script>
+
+
+</body>
+
+</html>

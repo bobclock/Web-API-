@@ -1,0 +1,40 @@
+/*All page styles*/
+
+body {
+    background-color: #3d2308;
+    color: #535353;
+    text-align: center;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    text-decoration: none;
+}
+.main_page {
+    display: flex;
+    flex-direction: column;
+}
+
+/*HEADER STYLES*/
+
+
+
+/*Bigger than portrait on phones*/
+
+@media (min-width: 358px) {
+
+}
+/*Tablet landscape*/
+
+@media (min-width: 768px) {
+
+}
+
+/*Desktop*/
+
+@media (min-width: 1072px) {
+
+}
